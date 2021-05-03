@@ -1,0 +1,20 @@
+[package]
+name = "waver"
+version = "0.1.0"
+authors = ["David Craven <david@craven.ch>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.40"
+async-channel = "1.6.1"
+async-io = "1.4.1"
+async-std = { version = "1.9.0", features = ["attributes"] }
+ctrlc = "3.1.9"
+env_logger = "0.8.3"
+futures = "0.3.14"
+log = "0.4.14"
+pcap = "0.8.1"
+structopt = "0.3.21"
+vcd = "0.6.1"
+
+[dev-dependencies]
